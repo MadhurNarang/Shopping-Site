@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  background-color: #fff;
+}
+
+/* Hide the default scrollbar */
+body::-webkit-scrollbar {
+  width: 0rem; /* Adjust the width as desired */
+  background-color: #f1f1f1; /* Set a background color for the scrollbar track */
+}
+
+/* Hide the scrollbar thumb */
+body::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+/* Hide the scrollbar track */
+body::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
